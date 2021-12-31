@@ -1,0 +1,27 @@
+logging:
+  file: classpath:logback.xml
+
+#spring:
+#  data:
+#    mongodb:
+#      host: localhost
+#      port: 27017
+#      username: root
+#      password: 123456
+
+xinyue:
+  server:
+    config:
+      port: 8088
+
+spring:
+  datasource:
+    url: jdbc:mysql://47.106.109.249:3306/pacman?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: pacman
+    password: y876680538
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+
+mybatis-plus:
+  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启SQL语句打印
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl

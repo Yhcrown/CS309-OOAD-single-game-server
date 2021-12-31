@@ -1,0 +1,32 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea/
+/game-network/target/
+
+/game-network-messages/target/
+/game-server/target/
+/game-client-shell/target/
+/spring-shell.log
+/game-client-shell/game.client.log
+/game-client-shell/spring-shell.log
+/game.client.log
+/game-network/target/
+/arthas-output/
+/game-frame.iml
+/game-server/game-server.iml
+/game-client-shell/game-client-shell.iml
+/game-network-messages/game-network-messages.iml
+/game-network/game-network.iml
+/game-center-server/game-center-server.iml
+/game-center-server/target/
+/xinyue-game-utils/target/
+/xinyue-game-utils/xinyue-game-utils.iml
+/xinyue-game-user-authentication/xinyue-game-user-authentication.iml
+/xinyue-game-user-authentication/target/classes/com/xinyue/game/authentication/
+/xinyue-game-user-authentication/target/
